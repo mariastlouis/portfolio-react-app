@@ -7,6 +7,7 @@
     "node-sass-chokidar": "0.0.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
+    "react-icons": "^2.2.7",
     "react-scripts": "1.1.4",
     "react-scrollchor": "^5.0.2"
   },
