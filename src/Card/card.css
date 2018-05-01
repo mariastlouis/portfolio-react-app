@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+@import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600");
+h1, h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200; }
+
+.card {
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+  background: #ffffff;
+  margin: 10px;
+  width: 280px;
+  height: 300px; }
+
+.card:hover {
+  cursor: pointer; }
+
+.card-title {
+  background: #acd6ce;
+  height: 50px;
+  width: 280px;
+  opacity: 0.9;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-itemx: center;
+  /* display: flex; */ }
+
+.description {
+  box-shadow: 1.5px 3px 3px 1.5px #566782;
+  background: #acd6ce;
+  width: 280px;
+  height: 300px;
+  display: flex;
+  align-content: center; }
+
+.project-image {
+  display: flex; }
+
+img.portfolio-image {
+  width: 280px; }
+
+.card-title p {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: #414042; }
+
+.description-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #414042;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: 200; }
+
+.card-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.card-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #acd6ce;
+  font-family: "Oswald", sans-serif; }
+
+.card-links a:hover {
+  color: #414042; }
