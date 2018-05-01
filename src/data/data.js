@@ -41,6 +41,14 @@ export default [
     web: 'http://www.mariastlouissanchez.com/landslideMap/index.html'
   },
   {
+    name: '2015 Mass Shootings',
+    image: '../assets/mass_shootings_2015.png',
+    description: 'A data map to show the number of mass shootings victims across the United States',
+    category: 'data',
+    github: 'https://github.com/mariastlouis/mass-shootings-2015',
+    web: 'http://www.mariastlouissanchez.com/massShootingMap/index.html'
+  },
+  {
     name: 'Navigate Interactives',
     image: '../assets/navigate.png',
     description: 'A school project for a ficticious business that creates data maps',
