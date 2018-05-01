@@ -3,13 +3,28 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
 @import url("https://fonts.googleapis.com/css?family=Nothing+You+Could+Do");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,400,600");
-
 h1, h3, h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 200; }
 
+h4 {
+  font-size: 20px;
+  color: #808080; }
+
 p, li {
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 200;
+  color: #8d8e8d;
+  font-family: "Oswald", sans-serif; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px; }
 
 .skills {
   color: #414042;
@@ -33,26 +48,24 @@ p, li {
   display: flex;
   flex-direction: row; }
 
-.skills-box {
-  width: 50%; }
-
 .cog-icon {
   font-size: 30px;
   text-align: center; }
 
 .full-skills-lists {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
+  flex-direction: row; }
 
 .skills-list li {
   font-family: "Oswald", sans-serif; }
 
 .intro {
-  width: 60%; }
+  width: 70%;
+  padding-right: 20px; }
 
 .skills-box {
-  width: 40%; }
+  width: 30%;
+  background: #acd6ce; }
 
 a.social-link {
   color: white;
@@ -66,19 +79,12 @@ a.social-link:hover {
   display: flex;
   flex-direction: row;
   left: 9px;
-  margin-top: 5px;
+  margin-top: 30px;
   margin-bottom: 10px; }
 
 .category-description {
   margin-left: 20px;
   margin-top: 5px; }
-
-.resume-list ul {
-  list-style: none; }
-
-.resume-list ul li {
-  padding-bottom: 40px;
-  position: relative; }
 
 .bullet {
   border-radius: 50%;
@@ -92,7 +98,12 @@ a.social-link:hover {
 
 .resume-list-item {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  margin-top: 15px; }
+
+.light {
+  color: #8d8e8d;
+  font-size: 15px; }
 
 .list-icon {
   border-radius: 50%;
@@ -115,12 +126,6 @@ a.social-link:hover {
   bottom: 0;
   z-index: -1;
   height: 100%; }
-
-ul li:last-child .bullet:before {
-  content: none; }
-
-ul li:last-child {
-  padding-bottom: 0; }
 
 .skills-bottom {
   display: flex;

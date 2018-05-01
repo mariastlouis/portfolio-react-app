@@ -31,10 +31,24 @@ h1, h3, h4 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 20px;
+  color: $med-gray;
 }
 
 p, li {
   font-size: 20px;
+  font-weight: 200;
+  color: $lt-gray;
+  font-family: $body-font;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
 

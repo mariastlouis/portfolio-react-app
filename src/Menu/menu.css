@@ -7,8 +7,24 @@ h1, h3, h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 200; }
 
+h4 {
+  font-size: 20px;
+  color: #808080; }
+
 p, li {
-  font-size: 20px; }
+  font-size: 20px;
+  font-weight: 200;
+  color: #8d8e8d;
+  font-family: "Oswald", sans-serif; }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 40px; }
 
 * {
   box-sizing: border-box;

@@ -47,17 +47,76 @@ export default function Skills () {
     <div className = "full-resume-list">
     <div className = "left-border">
     <div className = "resume-list-item">
-      <div class= "bullet"> </div>
-      <div class = "resume-text">
-        <h4> Here is some info </h4>
-        <p> here is more info. Lots of info here. Lots and lots of info. More and more info. I want to see it break and see what happens here. here is more info. Lots of info here. Lots and lots of info. More and more info. I want to see it break and see what happens here.  </p>
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> METRO EDITOR DIGITAL, The Colorado Springs Gazette</h4>
+        <p className = "light">2016-2017 </p>
+        <ul>
+          <li> Led a group of 20 reporters to produce digital content, breaking news and daily stories.</li>
+          <li> Thrived in a fast-paced, competitive, analytics-focused atmosphere.</li>
+        </ul>
       </div>
     </div>
+      <div className = "resume-list-item">
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> DATABASE EDITOR, The Colorado Springs Gazette</h4>
+        <p className = "light">2009-2016 </p>
+        <ul>
+          <li> Team lead and digital designer for data-focused investigative stories.</li>
+          <li> Focused on obtaining and visualizing data including data-driven maps, searchable databased and interactive charts.</li>
+        </ul>
+      </div>
+    </div>
+      <div className = "resume-list-item">
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> CONTRACT WEB DESIGNER, Self-employed</h4>
+        <p className = "light">2007-Present </p>
+        <ul>
+          <li> Design websites for non-profits and small businesses either from scratch or customized WordPress templates.</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div className = "category-head">
+      <div className = "icon-img">
+        <img className = "list-icon" src = {Briefcase} alt = "briefcase" />
+      </div>
+      <div className = "category-description">
+      <h3> Education</h3>
+    </div>
+    </div>
+    <div className = "full-resume-list">
+    <div className = "left-border">
     <div className = "resume-list-item">
-      <div class= "bullet"> </div>
-      <div class = "resume-text">
-        <h3> Here is some info </h3>
-        <p> here is more info </p>
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> FRONT END ENGINEERING CERTIFICATE, Turing School of Software and Design</h4>
+        <p className = "light">August 2017 - March 2018 </p>
+        <ul>
+          <li>A 1500-hour front end engineering program focused on teaching the latest web development languages, libraries and frameworks. 
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+      <div className = "resume-list-item">
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> MASTER'S DEGREE IN WEB DESIGN AND ONLINE COMMUNICATIONS, University of Florida</h4>
+        <p className = "light">2009-2016 </p>
+        <ul>
+          <li> A two-year program focused primarily on web design and visual branding. Degree provided a solid foundation in HTML, CSS, responsive design and image creation and editing</li>
+        </ul>
+      </div>
+    </div>
+      <div className = "resume-list-item">
+      <div className= "bullet"> </div>
+      <div className = "resume-text">
+        <h4> BACHELOR'S DEGREES IN JOURNALISM AND ENGLISH, Colorado State University</h4>
+        <p className = "light">1998-2003 </p>
       </div>
     </div>
     </div>
