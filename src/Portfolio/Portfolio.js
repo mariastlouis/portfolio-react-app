@@ -15,12 +15,12 @@ export default class Portfolio extends Component {
 
   allClicks (category, position){
     this.toggle(position)
-    this.handleClick(category)
+    this.props.filterFunction(category);
   }
 
   clickAll (position) {
     this.toggle(position)
-    this.props.originalState ()
+    this.props.originalState()
   }
 
 

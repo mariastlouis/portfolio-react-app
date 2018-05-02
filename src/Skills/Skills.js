@@ -1,25 +1,15 @@
 import React from 'react';
 import './skills.css';
 import Cogs from 'react-icons/lib/fa/cogs';
+import Code from 'react-icons/lib/fa/code';
 import GitHub from 'react-icons/lib/fa/github';
 import LinkedIn from 'react-icons/lib/fa/linkedin-square';
 import Envelope from 'react-icons/lib/fa/envelope';
 import Profile from '../assets/profile-orange.png';
 import Briefcase from '../assets/briefcase-orange.png';
+import Graduate from '../assets/graduate-orange.png';
 
 
-
-   //       <h2 className = "skills-hed"> <img className = "woman-icon" src = {Profile} alt = "woman profile" /> What </h2>
-     //     <p className = "skills-text"> I'm a data-journalist turned web designer/developer and have been visualizing data and making websites for more than five years.</p> 
-       //   <p className = "skills-text"> I have a master's degree in web design from the University of Florida and recently graduated from the front-end engineering program at Turing School of Software & Design in Denver, CO. </p>
-//<li> <span className = "bullet"> </span> <span className = "list-text"> <h3 className = "resume-head"> head </h3> <br /><p className = "resume-paragraph"> I'm putting a lot of text here. I mean a lot of text. There is text and text and text. </p></span>  </li>
-
-
-// <ul className = "resume-list">
-  //    <li> <span className = "bullet"> </span> <h3> Point 3 </h3> <p> Hello </p></li>
-    //  <li> <span className = "bullet"> </span> Point 3 </li>
-      //<li> <span className = "bullet"> </span> Point 4 </li>
-   // </ul>
 export default function Skills () {
   return (
     <div className = "skills" id="skills-section">
@@ -82,7 +72,7 @@ export default function Skills () {
     </div>
     <div className = "category-head">
       <div className = "icon-img">
-        <img className = "list-icon" src = {Briefcase} alt = "briefcase" />
+        <img className = "list-icon" src = {Graduate} alt = "briefcase" />
       </div>
       <div className = "category-description">
       <h3> Education</h3>
@@ -125,14 +115,21 @@ export default function Skills () {
   </div>
         </div>
         <div className = "skills skills-box">
-          <div className = "cog-icon">
-            <h2 className = "skills-hed"> <Cogs /> Skills </h2>
+         <div className = "skills-icon">
+            <h2 className = "skills-hed"> Languages</h2>
           </div>
           <div className = "full-skills-lists">
             <ul className = "skills-list">
               <li> HTML5/CSS3/SCSS</li>
               <li> JavaScript/JQuery </li>
               <li> SQL </li>
+            </ul>
+          </div>
+          <div className = "skills-icon">
+            <h2 className = "skills-hed">Frameworks/Skills </h2>
+          </div>
+          <div className = "full-skills-lists">
+            <ul className = "skills-list">
               <li> React </li>
               <li> Redux</li>
               <li> Node </li>

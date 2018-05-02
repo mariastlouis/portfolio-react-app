@@ -13,9 +13,9 @@
 
 .skills-hed, .accent-hed {
   font-family: $title-font;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-  text-align: center;
+  margin: 20px 10px;
 }
 
 .skills-text {
@@ -29,9 +29,8 @@
 }
 
 
-.cog-icon {
+.skills-icon {
   font-size: 30px;
-  text-align: center;
 }
 
 .full-skills-lists {
@@ -39,8 +38,15 @@
   flex-direction: row;
 }
 
+
+.skills-list {
+  list-style-type: none;
+  -webkit-padding-start: 10px;
+}
+
 .skills-list li {
-  font-family: $body-font;
+  color: $dk-gray;
+  padding-top: 5px;
 }
 
 .intro {
@@ -104,6 +110,14 @@ a.social-link:hover {
   border-radius: 50%;
   padding: 2px;
   border: 1px solid $secondary-accent;
+  height: 50px;
+  width: 50px;
+}
+
+.skills-symbol {
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid $dk-gray;
   height: 50px;
   width: 50px;
 }
