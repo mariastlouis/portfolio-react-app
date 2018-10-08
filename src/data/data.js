@@ -18,13 +18,6 @@ export default [
     github: 'https://github.com/mariastlouis/Accountable'
   },
   {
-    name: 'On Unsolid Ground',
-    image: '../assets/unsolid_ground.jpg',
-    description: 'A multimedia package and investigative story for The Colorado Springs Gazette about lanslide issues in the city',
-    category: ['design'],
-    web: 'http://gazette.com/landslides'
-  },
-  {
     name: 'Weatherly',
     image: '../assets/weatherly-portfolio.png',
     description: 'A responsive app that lets users find live weather updates in the United States',

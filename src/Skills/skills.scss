@@ -126,8 +126,6 @@ a.social-link:hover {
   margin-top: 10px;
 }
 
-
-
 .full-resume-list {
   position: relative;
 }
@@ -155,6 +153,10 @@ a.social-link:hover {
    .skills-box {
     width: 100%;
   } 
+  .intro {
+    width: 100%;
+    padding: 5px;
+  }
   .intro.skills-box {
     border-right: none;
       border-bottom: 2px solid white;

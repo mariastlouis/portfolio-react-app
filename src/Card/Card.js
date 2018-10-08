@@ -26,14 +26,14 @@ export default class Card extends Component {
 
   render () {
     return (
-      <div className = "card" onClick = {this.toggleDescription}>
+      <div className = "card">
         {
           !this.state.showDescription &&
             <div className = "card-front">
-              <div className = "card-title">
+              <div className = "card-title" onClick = {this.toggleDescription}>
                 <p>{this.props.name}</p>
               </div>
-              <div className = "project-image">
+              <div className = "project-image" onClick = {this.toggleDescription}>
                 <img className = "portfolio-image" src = {this.props.image} />
               </div>
               <div className = "card-links">
@@ -49,7 +49,7 @@ export default class Card extends Component {
         }
         {
           this.state.showDescription &&
-          <div className = "description">
+          <div className = "description" onClick = {this.toggleDescription}>
             <div className = "description-text">
               {this.props.description}
             </div>

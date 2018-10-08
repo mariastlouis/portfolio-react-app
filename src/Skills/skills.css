@@ -147,6 +147,9 @@ a.social-link:hover {
     flex-direction: column; }
   .skills-box {
     width: 100%; }
+  .intro {
+    width: 100%;
+    padding: 5px; }
   .intro.skills-box {
     border-right: none;
     border-bottom: 2px solid white;
