@@ -1,18 +1,7 @@
 @import 'variable';
 
-// .accent-hed {
-//   font-family: $title-font;
-//   color: #ffffff;
-//   font-size: 55px;
-// }
-
-.intro.skills-box {
-    border-right: 2px solid white;
-    padding-right: 15px;
-}
 
 .skills {
-  background: $accent-color;
   color: $dk-gray;
   padding: 20px;
   font-weight: 200;
@@ -24,9 +13,9 @@
 
 .skills-hed, .accent-hed {
   font-family: $title-font;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
-  text-align: center;
+  margin: 20px 10px;
 }
 
 .skills-text {
@@ -39,23 +28,35 @@
   flex-direction: row;
 }
 
-.skills-box {
-  width: 50%;
-}
 
-.cog-icon {
+.skills-icon {
   font-size: 30px;
-  text-align: center;
 }
 
-.two-skills-lists {
+.full-skills-lists {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+}
+
+
+.skills-list {
+  list-style-type: none;
+  -webkit-padding-start: 10px;
 }
 
 .skills-list li {
-  font-family: $body-font;
+  color: $dk-gray;
+  padding-top: 5px;
+}
+
+.intro {
+  width: 70%;
+  padding-right: 20px;
+}
+
+.skills-box {
+  width: 30%;
+  background: $accent-color;
 }
 
 a.social-link {
@@ -68,9 +69,78 @@ a.social-link:hover {
   color: $lt-gray;
 }
 
-// .github-link {
-//   margin-right: 30px;
-// }
+.category-head {
+  display: flex;
+  flex-direction: row;
+  left: 9px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.category-description {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+
+.bullet {
+  border-radius: 50%;
+  border: 1px solid $secondary-accent;
+  padding: 0px 12px;
+  margin-right: 34px;
+  margin-left: 12px;
+  background:#fff;
+  height: 25px;
+  width: 25px;
+}
+
+.resume-list-item {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.light {
+  color: $lt-gray;
+  font-size: 15px;
+}
+
+
+.list-icon {
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid $secondary-accent;
+  height: 50px;
+  width: 50px;
+}
+
+.skills-symbol {
+  border-radius: 50%;
+  padding: 2px;
+  border: 1px solid $dk-gray;
+  height: 50px;
+  width: 50px;
+}
+
+.resume-list {
+  margin-top: 10px;
+}
+
+
+
+.full-resume-list {
+  position: relative;
+}
+
+.left-border:before{
+  content:'';
+  position:absolute;
+  border-left:1px solid $secondary-accent;
+  left:25px;
+  bottom:0;
+  z-index:-1;
+  height:100%
+}
 
 
 .skills-bottom {
@@ -79,20 +149,16 @@ a.social-link:hover {
 }
 
 @media screen and (max-width: 600px) {
-.skills-top {
-  flex-direction: column;
-
- .skills-box {
-  width: 100%;
- } 
-
-.intro.skills-box {
-  border-right: none;
-    border-bottom: 2px solid white;
-    padding-right: 0px;
-    padding-bottom: 15px;
-}
-
-}
-
+  .skills-top {
+    flex-direction: column;
+  }
+   .skills-box {
+    width: 100%;
+  } 
+  .intro.skills-box {
+    border-right: none;
+      border-bottom: 2px solid white;
+      padding-right: 0px;
+      padding-bottom: 15px;
+  }
 }
